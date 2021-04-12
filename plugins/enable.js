@@ -40,7 +40,7 @@ ${usedPrefix}disable welcome
 `.trim())
   }
   m.reply(`
-*${type}* berhasil di *${isEnable ? 'nyala' : 'mati'}kan* ${isAll ? 'untuk bot ini' : isUser ? '' : 'untuk chat ini'}
+*${type}* Ativado✅
 `.trim())
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
